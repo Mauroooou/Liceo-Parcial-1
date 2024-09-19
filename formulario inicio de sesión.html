@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    
+    <title>Simulación Inicio de sesión</title>
+<title>Estilos</title>
+	<style>
+	body{
+		font-family: Times new roman, sans-serif;
+		font-size: 16px;
+	}
+	
+	input[type="text"]{
+
+		font-family: 2px solid #F81717; /Color de borde/
+		border-radius: 5px; /bordes redondos/
+		padding: 10 px /Espacio interno/
+		width: 100% /Ancho del contenedor/
+	}
+
+	label {
+		font-size: 18 px;
+		font-weight: bold;/negrita de etiquetas/
+	}
+	</style>
+</head>
+<body>
+
+	<h1>Pinterest</h1>
+	<img src = "https://mx.pinterest.com/login/" widht= 100" height="100">
+<form action="/enviar" method="post">
+	<label for = "nombre">Inicio de sesión, usuario o correo electronico </label><br>
+	<input type="text" id= "nombre" name="nombre" required><br>
+	<label for ="apellido">Ingrese contraseña: </label><br>
+	<input type= "text" id="apellido" lastname="apellido" required><br>
